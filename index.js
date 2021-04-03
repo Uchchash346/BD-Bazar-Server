@@ -15,7 +15,7 @@ client.connect(err => {
   const eventCollection = client.db("foodbazar").collection("newfood");
   // root directory for server
   app.get('/', (req, res) => {
-    res.send('Welcome from volunteer network server!')
+    res.send('hello from BD Bazar. It is working !')
   })
   //add product
   app.post('/addProduct', (req, res) => {
